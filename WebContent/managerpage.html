@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>酒店管理系统</title>
+    <link rel="stylesheet" href="css/managerpage_style.css" />
+    <script src="jQuery/jquery-3.1.0.js"></script>
+    <script src="jQuery/managerpage.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <p>四季酒店</p>
+            <ul>
+                <li><a href="#" class="mannage" >管理员页面</a></li>
+                <li><a href="outServlet" class="out">退出登陆</a></li>
+ 
+            </ul>
+        </div>
+        <div class="container">
+            <ul class="nav">
+                    <li>增加房间
+                    <div class="add">
+                       楼层:<input type="text" class="floor">
+                       房号:<input type="text"class="number">
+                       户型:<input type="text"class="size">
+                       价钱:<input type="text"class="price"><br />
+                       入住情况: <input type="text" class="status">
+                       <input type="button" value="提交" />
+                       <p class="result"></p>
+                    </div>
+                    </li>
+                    <li>删除房间
+                    <div class="delete">
+                        楼层:<input type="text"class="floor">
+                        房号:<input type="text"class="number">
+                        <input type="button" value="提交" />
+                        <p class="result"></p>
+                    </div>
+                    </li>
+                    <li>修改房间信息
+                    <div class="change">
+                        楼层:<input type="text"class="floor">
+                        房号:<input type="text"class="number">
+                        价钱:<input type="text"class="price">
+                        入住情况: <input type="text"class="status">
+                        <input type="button" value="提交" />
+                        <p class="result"></p>
+                    </div>
+                    </li>
+                    <li>查找房间
+                    <div class="search1">
+                        楼层:<input type="text"class="floor">
+                        房号:<input type="text"class="number">
+                        <input type="button" value="提交" />
+                        <p class="result"></p>
+                    </div>
+                    </li>
+     
+                </ul>
+        </div>
+        <div class="footer">
+             Copyright &copy ByWulili 2016
+        </div>
+    </div>
+</body>
+</html>

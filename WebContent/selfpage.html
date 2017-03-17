@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>酒店管理系统</title>
+    <link rel="stylesheet" href="css/selfpage_style.css" />
+    <script src="jQuery/jquery-3.1.0.js"></script>
+    <script src="jQuery/selfpage.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <p>四季酒店</p>
+            <ul>
+              
+                <li><a href="#"class="stop">退房</a></li>
+                <li><a href="outServlet" class="out">退出登陆</a></li>
+               		
+                <div class="stop_div">
+                    <form action="#">
+                    <p>退房</p>
+                    <label>楼层:<input type="text" class="floor" /></label><br />
+                    <label>房号:<input type="text" class="number" /></label>
+                    <input type="button" class="submit" value="提交" />
+                    <input type="button" class="no" value="取消" />
+                    </form>
+                </div>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="small">
+                <img src="image/small.jpg" height="220" width="328" alt="单间" />
+                <p><b>单人房</b>作为奢华酒店管理集团，四季在北美地区最先引入各项如今已成为行业标准的设施和服务，比如沐浴设施、浴袍、吹风机以及双线、多线电话等。四季亦是第一家提供欧式礼宾服务、全天候房内用餐和包括家庭式、素食主义和健康菜单在内的创意菜单的酒店。其他品牌特色包括每日两次的客房整理服务，一小时熨衣服务以及全天四小时干洗和干衣服务。</p>
+                <br /><label for="account">数量:<br /><input type="text" id="account" class="account" /></label>
+                <label for="start">入住时间:<br><input type="text" id="start" class="start" placeholder="如20101228"/></label>
+                <label for="stop">退房时间:<br><input type="text" id="stop" class="stop" placeholder="如20101228" /></label>
+                <input type="button" class="submit smal1submit" value="提交订单"/>
+            </div>
+            <div class="middle">
+                <img src="image/middle.jpg" height="220" width="329" alt="双人房" />
+                <p><b>双人房</b>作为奢华酒店管理集团，四季在北美地区最先引入各项如今已成为行业标准的设施和服务，比如沐浴设施、浴袍、吹风机以及双线、多线电话等。四季亦是第一家提供欧式礼宾服务、全天候房内用餐和包括家庭式、素食主义和健康菜单在内的创意菜单的酒店。其他品牌特色包括每日两次的客房整理服务，一小时熨衣服务以及全天四小时干洗和干衣服务。</p>
+                <br />
+                <label for="account">数量:<br /><input type="text" id="account1" class="account" /></label>
+                <label for="start">入住时间:<br><input type="text" id="start1" class="start" placeholder="如20101228" /></label>
+                <label for="stop">退房时间:<br><input type="text" id="stop1" class="stop" placeholder="如20101228" /></label>
+                <input type="button" class="submit middleSubmit" value="提交订单"/>
+            </div>
+            <div class="big">
+                 <img src="image/big.jpg" height="220" width="343" alt="套房" />
+                <p><b>套间</b>作为奢华酒店管理集团，四季在北美地区最先引入各项如今已成为行业标准的设施和服务，比如沐浴设施、浴袍、吹风机以及双线、多线电话等。四季亦是第一家提供欧式礼宾服务、全天候房内用餐和包括家庭式、素食主义和健康菜单在内的创意菜单的酒店。其他品牌特色包括每日两次的客房整理服务，一小时熨衣服务以及全天四小时干洗和干衣服务。</p>
+                <br /><label for="account">数量:<br /><input type="text" id="account2" class="account" /></label>
+                <label for="start">入住时间:<br><input type="text" id="start2" class="start" placeholder="如20101228" /></label>
+                <label for="stop">退房时间:<br><input type="text" id="stop2" class="stop" placeholder="如20101228" /></label>
+                <input type="button" class="submit bigsubmit" value="提交订单" />
+            </div>
+        </div>
+        <div class="footer">
+             Copyright &copy ByWulili 2016
+        </div>
+    </div>
+</body>
+</html>

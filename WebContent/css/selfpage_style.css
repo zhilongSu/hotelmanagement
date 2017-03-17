@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "微软雅黑","san-serif";
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.wrapper{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.header{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: url(../image/4.jpg) no-repeat;
+    background-size: 100% 100%;
+
+ 
+}
+.header p{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 40%;
+    text-align: center;
+    font-size: 50px;
+}
+ul{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    overflow: hidden;
+    background-color: gray;
+    opacity: 0.8;
+}
+li{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    margin-left: 23%;
+    font-size: 32px;
+    width:20%;
+    font-weight: bold;
+    list-style: none;
+}
+.container{
+    width: 82%;
+    margin: 0 auto;
+}
+.container div{
+    width: 98%;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+.container div img{
+    float: left;
+    margin:3% 2%;
+    width: 35%;
+    height: 240px;
+    border-radius: 5px;
+}
+.container div p{
+    float: left;
+    margin: 3% 1%;
+    width: 37%;
+    height: 240px;
+    line-height: 30px;
+}
+.container div input[type="text"]{
+    margin-top: 4px;
+    width: 20%;
+    height: 27px;
+    border-radius: 4px;
+}
+.container div input[type="button"]{
+    margin-top: 12px;
+    margin-left: 5%;
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+}
+.container div label{
+    display: block;
+    margin-top: 6px;
+    margin-left: 8%;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    background:  gray;
+}
+/*修改订单服务div*/
+
+.change_div{
+    display: none;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    position: fixed;
+    top: 22%;
+    left: 35%;
+    background: url(../image/change.jpg);
+    color: black;
+    font-weight: bold;
+    z-index: 20;
+    border-radius: 6px;
+    box-shadow: 0 0 10 gray;
+}
+ul div input[type="text"]{
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+}
+ul div input[type="button"]{
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+}
+.change_div p{
+    margin: 0 auto;
+    margin-top: -20px;
+    font-size: 28px;
+
+}
+/*退房*/
+.stop_div{
+    display: none;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    position: fixed;
+    top: 30%;
+    left: 35%;
+    background: url(../image/change.jpg);
+    color: black;
+    font-weight: bold;
+    z-index: 20;
+    border-radius: 6px;
+    box-shadow: 0 0 10 gray;
+}
+div.stop_div input[type="text"]{
+    margin-top: 20px;
+    width: 220px;
+    height: 35px;
+    border-radius: 6px;
+}
+div.stop_div input[type="button"]{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;
+}
+.stop_div p{
+    margin: 0 auto;
+    margin-top: -20px;
+    font-size: 28px;
+
+}
